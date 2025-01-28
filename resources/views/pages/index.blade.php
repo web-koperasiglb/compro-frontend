@@ -25,7 +25,7 @@
 
     <section class="py-20">
         <div class="px-6 sm:px-16">
-            <h2 class="text-5xl font-bold text-center mb-8 text-gray-primary">Kolaborasi dengan yang Terbaik</h2>
+            <h2 class="text-5xl font-bold text-center mb-8 text-gray-primary">{{ __('messages.home.collaboration') }}</h2>
             <!-- Swiper -->
             <div class="swiper mySwiper pt-10">
                 <div class="swiper-wrapper">

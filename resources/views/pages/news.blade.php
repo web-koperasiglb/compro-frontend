@@ -10,7 +10,7 @@
         </div>
     </section>
 
-    <section class="font-poppins">
+    <section class="mb-24 font-poppins">
         <div class="px-6 sm:px-16">
             <div class="grid grid-cols-1 sm:grid-cols-3 gap-6 mt-8">
                 <div>

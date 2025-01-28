@@ -38,7 +38,7 @@
                 </li>
                 <a href="{{ route('contact-us') }}"
                 class="hidden max-lg:block w-full px-4 py-2 text-sm rounded-full font-semibold text-green-primary border-2 border-green-primary transition-all ease-in-out duration-300 hover:bg-green-primary hover:text-white">
-                    Contact
+                    {{ __('messages.contact') }}
                 </a>
             </ul>
         </div>
@@ -54,7 +54,7 @@
             </form>
             <a href="{{ route('contact-us') }}"
                 class="max-sm:hidden px-4 py-2 text-sm rounded-full font-semibold text-green-primary border-2 border-green-primary transition-all ease-in-out duration-300 hover:bg-green-primary hover:text-white">
-                Contact
+                {{ __('messages.contact') }}
             </a>
             <button id="toggleOpen" class="lg:hidden">
                 <svg width="20" height="21" class="w-7 h-7" viewBox="0 0 20 21" fill="none" xmlns="http://www.w3.org/2000/svg">
