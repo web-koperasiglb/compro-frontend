@@ -1,6 +1,6 @@
 @extends('layouts.general')
 
-@section('title', 'About Us')
+@section('title', __('messages.about-us'))
 
 @push('content')
     <main class="relative mt-[4.5rem] sm:mt-16 h-96 sm:h-screen flex items-center overflow-hidden hero-about-us">

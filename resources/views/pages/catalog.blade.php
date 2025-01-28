@@ -1,6 +1,6 @@
 @extends('layouts.general')
 
-@section('title', 'Catalog')
+@section('title', __('messages.catalog'))
 
 @push('content')
     <section class="py-20 mt-20 px-6 sm:px-16">

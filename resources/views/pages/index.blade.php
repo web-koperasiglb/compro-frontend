@@ -1,6 +1,6 @@
 @extends('layouts.general')
 
-@section('title', 'Beranda')
+@section('title', __('messages.home'))
 
 @push('content')
     <main class="relative mt-24 h-96 sm:h-screen flex items-center overflow-hidden">
