@@ -32,19 +32,19 @@ body {
     cursor: grabbing;
 }
 
-/* START HOME PAGE */
-.parallax-1 {
-    background: linear-gradient(0deg, rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.3)), url('/images/home/home-parallax-coffee-1.png');
+.parallax-1, .parallax-2 {
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
+    will-change: transform;
+}
+
+.parallax-1 {
+    background-image: url('/images/home/home-parallax-coffee-1.png');
 }
 
 .parallax-2 {
-    background: linear-gradient(0deg, rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.3)), url('/images/home/home-parallax-coffee-2.png');
-    background-size: cover;
-    background-position: center;
-    background-attachment: fixed;
+    background-image: url('/images/home/home-parallax-coffee-2.png');
 }
 
 .about-us-section {
