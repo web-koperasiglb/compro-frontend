@@ -16,7 +16,7 @@ return [
     'home.collaboration' => 'Collaboration with the Best',
     'home.about-us.title' => 'About Us',
     'home.about-us.desc' => 'Gunung Luhur Berkah Producer Cooperative, known by the brand Hofland, is an Indonesian coffee producer located in Subang Regency. On September 17, 2021, they successfully carried out their first coffee export to Saudi Arabia, marking an important milestone in expanding their international market. Additionally, Hofland also participated in the Indonesian KOPI Festival in Dubai, demonstrating their commitment to promoting Indonesian coffee on the global stage.',
-    'home.about-us.points.0' => 'Experiences',
+    'home.about-us.points.0' => 'Coffee Farmer Manager',
     'home.about-us.points.1' => 'Total Exports/Year',
     'home.about-us.points.2' => 'Country',
     'home.catalog.title' => 'Our Best Coffee for You',

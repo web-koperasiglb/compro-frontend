@@ -68,7 +68,7 @@
                     <!-- Statistik -->
                     <div class="flex flex-wrap justify-between mt-8 gap-6 sm:gap-10">
                         <div class="text-center flex-1 flex flex-col gap-3 items-center">
-                            <p class="text-6xl font-bold">5+</p>
+                            <p class="text-6xl font-bold">500+</p>
                             <p class="text-base">{{ __('messages.home.about-us.points.0') }}</p>
                         </div>
                         <div class="text-center flex-1 flex flex-col gap-3 items-center">

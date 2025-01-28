@@ -16,7 +16,7 @@ return [
     'home.collaboration' => 'Kolaborasi dengan yang Terbaik',
     'home.about-us.title' => 'Tentang Kami',
     'home.about-us.desc' => 'Koperasi Produsen Gunung Luhur Berkah, dikenal dengan merek Hofland, adalah produsen kopi Indonesia yang berlokasi di Kabupaten Subang. Pada 17 September 2021, mereka berhasil melakukan ekspor perdana kopi ke Arab Saudi, menandai langkah penting dalam memperluas pasar internasional. Selain itu, Hofland juga berpartisipasi dalam Indonesian KOPI Festival di Dubai, menunjukkan komitmen mereka dalam mempromosikan kopi Indonesia di kancah global.',
-    'home.about-us.points.0' => 'Pengalaman',
+    'home.about-us.points.0' => 'Pengelola Petani Kopi',
     'home.about-us.points.1' => 'Total Ekspor/Tahun',
     'home.about-us.points.2' => 'Negara',
     'home.catalog.title' => 'Kopi Terbaik Kami untuk Anda',
