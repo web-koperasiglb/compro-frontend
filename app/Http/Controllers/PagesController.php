@@ -26,6 +26,12 @@ class PagesController extends Controller
         return view('pages.catalog');
     }
 
+    public function sitemap() {
+        return response()
+            ->view('sitemap')
+            ->header('Content-Type', 'application/xml');
+    }
+
     public function languageSwitch(Request $request) {
         $language = $request->input('language');
 

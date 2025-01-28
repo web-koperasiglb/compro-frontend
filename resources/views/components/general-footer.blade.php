@@ -22,7 +22,9 @@
 
         <!-- Bottom Section -->
         <div class="border-t border-gray-700 mt-8 pt-6 text-center text-sm flex flex-col sm:flex-row justify-between gap-8">
-            <p class="font-light text-sm">&copy; {{ date('Y') }} Koperasi Produsen Gunung Luhur Berkah. All rights reserved.</p>
+            <div class="font-light text-sm">
+                <span>&copy; {{ date('Y') }} Koperasi Produsen Gunung Luhur Berkah. All rights reserved | </span> <a href="{{ route('sitemap') }}">Sitemap</a>
+            </div>
             <!-- Links -->
             <div class="text-base sm:flex flex-col sm:flex-row gap-4 sm:gap-8 text-center sm:text-left hidden">
                 <a href="{{ route('home') }}">{{ __('messages.home') }}</a>

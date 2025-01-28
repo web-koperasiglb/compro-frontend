@@ -19,5 +19,6 @@ Route::get('/about-us', [PagesController::class, 'aboutUs'])->name('about-us');
 Route::get('/contact-us', [PagesController::class, 'contactUs'])->name('contact-us');
 Route::get('/news', [PagesController::class, 'news'])->name('news');
 Route::get('/catalog', [PagesController::class, 'catalog'])->name('catalog');
+Route::get('/sitemap.xml', [PagesController::class, 'sitemap'])->name('sitemap');
 Route::post('/language-switch', [PagesController::class, 'languageSwitch'])->name('language.switch');
 Route::post('/contact-store', [PagesController::class, 'submitContact'])->name('contact-us.store');
