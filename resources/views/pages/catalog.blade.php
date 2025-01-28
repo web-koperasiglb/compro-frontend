@@ -97,22 +97,25 @@
             {
                 name: "Robusta Origin Sumatra Grade 1",
                 type: "S-18 Clean & S-16 Clean",
-                description: "Robusta Origin Sumatra Grade 1 berasal dari ketinggian 600 - 800 mdpl dan diproses menggunakan metode specialty processing. Memiliki kadar air 12%, tingkat cacat 5%, bebas bau apek, serta tidak mengandung serangga hidup.\n\nCita rasanya unik dengan kombinasi kacang, karamel, burnt, dan kakao.\n\nHarga FOB Tanjung Priok ke Jeddah $5/kg, sedangkan CIF $5,4/kg.",
-                description_en: "Robusta Origin Sumatra Grade 1 comes from an altitude of 600 - 800 meters above sea level and is processed using specialty processing methods. It has a moisture content of 12%, a defect rate of 5%, is free from rancid odors, and does not contain live insects.\n\nIts flavor profile is unique, with a combination of nutty, caramel, burnt, and cocoa notes.\n\nThe price is FOB Tanjung Priok to Jeddah at $5/kg, and CIF at $5.4/kg.",
+                description: "Robusta Origin Sumatra Grade 1 berasal dari ketinggian 600 - 800 mdpl dan diproses menggunakan metode specialty processing. Memiliki kadar air 12%, tingkat cacat 5%, bebas bau apek, serta tidak mengandung serangga hidup.\n\nCita rasanya unik dengan kombinasi kacang, karamel, burnt, dan kakao.",
+                description_en: "Robusta Origin Sumatra Grade 1 comes from an altitude of 600 - 800 meters above sea level and is processed using specialty processing methods. It has a moisture content of 12%, a defect rate of 5%, is free from rancid odors, and does not contain live insects.\n\nIts flavor profile is unique, with a combination of nutty, caramel, burnt, and cocoa notes.",
+                description_ar: "روبوستا أوريجن سومطرة من الدرجة الأولى يأتي من ارتفاع 600 - 800 متر فوق مستوى سطح البحر ويُعالج باستخدام طرق معالجة خاصة. يحتوي على نسبة رطوبة 12٪، ومعدل عيوب 5٪، وخالي من الروائح الكريهة، ولا يحتوي على حشرات حية.\n\nيتميز بمذاق فريد يجمع بين النكهات الجوزية والكراميل والكاكاو المحترق والشوكولاتة.",
                 images: ["{{ asset('images/home/robusta-coffee-bean.png') }}"],
             },
             {
                 name: "Arabica Natural Coffee Bean",
                 type: "S18 - Clean",
-                description: "Arabica Natural Coffee Bean berasal dari dataran tinggi Jawa (1200 - 1400 mdpl) dengan metode natural processing. Memiliki kadar air 12%, tingkat cacat 5%, bebas bau apek, dan tidak mengandung serangga hidup.\n\nCita rasanya fruity dengan sentuhan pisang, nangka, dan jeruk. Varietasnya meliputi Arabica Java Preanger, Lini S, dan Andung Sari.\n\nHarga FOB Tanjung Priok ke Jeddah $8/kg, sedangkan CIF $8,4/kg.",
-                description_en: "Arabica Natural Coffee Bean is sourced from the highlands of Java (1200 - 1400 meters above sea level) using a natural processing method. It has a moisture content of 12%, a defect rate of 5%, is free from rancid odors, and does not contain live insects.\n\nIts flavor profile is fruity with hints of banana, jackfruit, and orange. The varieties include Arabica Java Preanger, Lini S, and Andung Sari.\n\nThe price is FOB Tanjung Priok to Jeddah at $8/kg, and CIF at $8.4/kg.",
+                description: "Arabica Natural Coffee Bean berasal dari dataran tinggi Jawa (1200 - 1400 mdpl) dengan metode natural processing. Memiliki kadar air 12%, tingkat cacat 5%, bebas bau apek, dan tidak mengandung serangga hidup.\n\nCita rasanya fruity dengan sentuhan pisang, nangka, dan jeruk. Varietasnya meliputi Arabica Java Preanger, Lini S, dan Andung Sari.",
+                description_en: "Arabica Natural Coffee Bean is sourced from the highlands of Java (1200 - 1400 meters above sea level) using a natural processing method. It has a moisture content of 12%, a defect rate of 5%, is free from rancid odors, and does not contain live insects.\n\nIts flavor profile is fruity with hints of banana, jackfruit, and orange. The varieties include Arabica Java Preanger, Lini S, and Andung Sari.",
+                description_ar: "حبوب البن العربية الطبيعية مستخرجة من مرتفعات جاوة (1200 - 1400 متر فوق مستوى سطح البحر) باستخدام طريقة المعالجة الطبيعية. يحتوي على نسبة رطوبة 12٪، ومعدل عيوب 5٪، وخالي من الروائح الكريهة، ولا يحتوي على حشرات حية.\n\nيتميز بنكهة فاكهية مع لمسات من الموز والجاك فروت والبرتقال. تشمل الأصناف أرابيكا جاوة بريانغر، ليني إس، وأندونغ ساري.",
                 images: ["{{ asset('images/home/arabic-coffee-bean.png') }}"],
             },
             {
                 name: "Arabica Coffee Origin Java – Full Washed",
                 type: "S18 - Clean",
-                description: "Arabica Coffee Origin Java - Full Washed berasal dari ketinggian 1200 - 1400 mdpl dan diproses menggunakan metode full washed, menghasilkan rasa yang lebih bersih dan halus. Memiliki kadar air 12%, tingkat cacat 5%, bebas bau apek, serta tidak mengandung serangga hidup.\n\nCita rasanya cenderung manis dengan nuansa karamel dan vanila. Varietasnya meliputi Arabica Java Preanger, Lini S, dan Andung Sari.\n\nHarga FOB Tanjung Priok ke Jeddah $7/kg, sedangkan CIF $7,4/kg.",
-                description_en: "Arabica Coffee Origin Java – Full Washed comes from an altitude of 1200 - 1400 meters above sea level and is processed using the full washed method, resulting in a cleaner and smoother taste. It has a moisture content of 12%, a defect rate of 5%, is free from rancid odors, and does not contain live insects.\n\nIts flavor profile is sweet with caramel and vanilla undertones. The varieties include Arabica Java Preanger, Lini S, and Andung Sari.\n\nThe price is FOB Tanjung Priok to Jeddah at $7/kg, and CIF at $7.4/kg.",
+                description: "Arabica Coffee Origin Java - Full Washed berasal dari ketinggian 1200 - 1400 mdpl dan diproses menggunakan metode full washed, menghasilkan rasa yang lebih bersih dan halus. Memiliki kadar air 12%, tingkat cacat 5%, bebas bau apek, serta tidak mengandung serangga hidup.\n\nCita rasanya cenderung manis dengan nuansa karamel dan vanila. Varietasnya meliputi Arabica Java Preanger, Lini S, dan Andung Sari.",
+                description_en: "Arabica Coffee Origin Java – Full Washed comes from an altitude of 1200 - 1400 meters above sea level and is processed using the full washed method, resulting in a cleaner and smoother taste. It has a moisture content of 12%, a defect rate of 5%, is free from rancid odors, and does not contain live insects.\n\nIts flavor profile is sweet with caramel and vanilla undertones. The varieties include Arabica Java Preanger, Lini S, and Andung Sari.",
+                description_ar: "حبوب البن العربية الأصلية من جاوة – معالجة كاملة تأتي من ارتفاع 1200 - 1400 متر فوق مستوى سطح البحر وتُعالج باستخدام طريقة الغسيل الكامل، مما ينتج طعماً أنظف وأكثر نعومة. يحتوي على نسبة رطوبة 12٪، ومعدل عيوب 5٪، وخالي من الروائح الكريهة، ولا يحتوي على حشرات حية.\n\nيتميز بمذاق حلو مع لمسات من الكراميل والفانيليا. تشمل الأصناف أرابيكا جاوة بريانغر، ليني إس، وأندونغ ساري.",
                 images: ["{{ asset('images/home/arabic-coffee-bean.png') }}"],
             },
         ];
@@ -125,18 +128,28 @@
             currentProductImages = product.images;
             currentImageIndex = 0;
 
-            // Update modal content
+            // Dapatkan bahasa lokal dari aplikasi
+            const locale = "{{ app()->getLocale() }}";
+            let description;
+
+            // Pilih deskripsi berdasarkan bahasa lokal
+            if (locale === 'en') {
+                description = product.description_en;
+            } else if (locale === 'ar') {
+                description = product.description_ar;
+            } else {
+                description = product.description;
+            }
+
+            // Update konten modal
             document.getElementById("productName").innerText = product.name;
             document.getElementById("productType").innerText = product.type;
-            document.getElementById("productDescription").innerText = product.description;
-            const locale = "{{ app()->getLocale() }}";
-            const description = locale === 'en' ? product.description_en : product.description;
             document.getElementById("productDescription").innerText = description;
 
-            // Update main image
+            // Update gambar utama
             updateMainImage(0);
 
-            // Show modal
+            // Tampilkan modal
             document.getElementById("productModal").classList.remove("hidden");
         }
 
