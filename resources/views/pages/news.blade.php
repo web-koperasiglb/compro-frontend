@@ -10,9 +10,8 @@
         </div>
     </section>
 
-    <section class="py-16 font-poppins">
+    <section class="font-poppins">
         <div class="px-6 sm:px-16">
-            <h2 class="text-2xl sm:text-2xl font-bold text-gray-primary">{{ __('messages.news.all.title') }}</h2>
             <div class="grid grid-cols-1 sm:grid-cols-3 gap-6 mt-8">
                 <div>
                     <img src="{{ asset('images/news-gunung-luhur-berkah-aug-2024.jpg') }}" alt="Kemenkop UKM ajak investor dukung permodalan koperasi produsen" class="w-full h-72 object-cover rounded-md">

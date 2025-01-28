@@ -9,7 +9,7 @@
             <div class="flex flex-col md:flex-row gap-8 mt-4 md:mt-0">
                 <div class="sm:w-1/2">
                     <h2 class="text-base font-bold sm:text-xl font-poppins text-[#333333]">{{ __('messages.contact-us.address') }}</h2>
-                    <p class="text-[#464646] font-light text-sm mt-2">Kp. Babakan jati RT 001 RW 006, Desa Cisaat, Kecamatan Cisaat, Subang, Indonesia 41281</p>
+                    <p class="text-[#464646] font-light text-sm mt-2">Kp. Babakan RT 001 RW 004, Desa Cisalak, Kecamatan Cisalak, Subang, Indonesia 41283</p>
                 </div>
                 <div class="sm:w-1/2">
                     <h2 class="text-base font-bold sm:text-xl font-poppins text-[#333333]">{{ __('messages.contact-us.telp') }}</h2>

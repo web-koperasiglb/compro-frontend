@@ -130,7 +130,7 @@
             document.getElementById("productType").innerText = product.type;
             document.getElementById("productDescription").innerText = product.description;
             const locale = "{{ app()->getLocale() }}";
-            const description = locale === 'EN' ? product.description_en : product.description;
+            const description = locale === 'en' ? product.description_en : product.description;
             document.getElementById("productDescription").innerText = description;
 
             // Update main image

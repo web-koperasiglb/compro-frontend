@@ -47,9 +47,9 @@
             <form action="{{ route('language.switch') }}" class="max-w-sm mx-auto" method="POST">
                 @csrf
                 <select id="language" name="language" onchange="this.form.submit()" class="text-gray-primary text-sm rounded-lg">
-                    <option value="ID" {{ app()->getLocale() == 'ID' ? 'selected' : '' }}>Bahasa</option>
-                    <option value="EN" {{ app()->getLocale() == 'EN' ? 'selected' : '' }}>English</option>
-                    <option value="AR" {{ app()->getLocale() == 'AR' ? 'selected' : '' }}>Arabic</option>
+                    <option value="id" {{ app()->getLocale() == 'id' ? 'selected' : '' }}>Bahasa</option>
+                    <option value="en" {{ app()->getLocale() == 'en' ? 'selected' : '' }}>English</option>
+                    <option value="ar" {{ app()->getLocale() == 'ar' ? 'selected' : '' }}>Arabic</option>
                 </select>
             </form>
             <a href="{{ route('contact-us') }}"
