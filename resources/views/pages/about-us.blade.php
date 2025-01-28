@@ -7,7 +7,7 @@
         <!-- Konten utama -->
         <div class="mx-6 sm:mx-16 p-10 flex flex-col items-center sm:items-start text-center sm:text-start gap-4 sm:gap-6 sm:w-1/2 bg-white py-2 sm:py-10 rounded-2xl animate__animated animate__fadeIn">
             <h1 class="text-3xl sm:text-7xl flex flex-col gap-2 font-bold text-[#333333]">{{ __('messages.about-us.hero.headline') }}</h1>
-            <p class="text-gray-secondary hero-title font-light text-base">{{ __('messages.about-us.hero.sub-headline') }}</p>
+            <p class="text-gray-secondary font-poppins font-light text-base">{{ __('messages.about-us.hero.sub-headline') }}</p>
             <a href="{{ route('contact-us') }}" class="bg-green-primary hover:bg-green-secondary text-white px-6 py-3 rounded-full w-max text-lg z-10 uppercase">
                 {{ __('messages.btn.contact-us') }}
             </a>
@@ -69,12 +69,12 @@
             <!-- Heading -->
             <div class="mb-12 flex flex-col sm:flex-row text-center sm:text-start sm:justify-between">
                 <h2 class="text-3xl sm:text-4xl font-bold text-gray-800 mb-4 sm:w-1/3">{{ __('messages.about-us.business.headline') }}</h2>
-                <p class="text-gray-secondary text-lg sm:w-1/3 desc-dedication">{{ __('messages.about-us.business.desc') }}</p>
+                <p class="text-gray-secondary text-lg sm:w-1/3 font-poppins">{{ __('messages.about-us.business.desc') }}</p>
             </div>
 
             <div class="flex flex-col gap-8">
                 <img src="{{ asset('images/about-us/gunung-luhur-berkah-dedication.png') }}" alt="Dedikasi Gunung Luhur Berkah" class="w-full h-80 object-cover rounded-md">
-                <div class="flex flex-col sm:flex-row gap-6 sm:gap-10 dedication-wrapper">
+                <div class="flex flex-col sm:flex-row gap-6 sm:gap-10 font-poppins">
                     <h2 class="text-xl sm:text-3xl font-medium text-gray-primary mb-4 sm:w-1/4">{{ __('messages.about-us.business.points') }}</h2>
                     <div class="flex flex-col gap-6 sm:w-3/4">
                         <div class="flex sm:flex-row flex-col gap-4">

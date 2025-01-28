@@ -157,7 +157,7 @@
             <!-- List News -->
             <div class="flex flex-col sm:flex-row gap-8">
                 <div class="flex flex-col w-full sm:w-8/12 gap-4">
-                    <img src="{{ asset('images/news-gunung-luhur-berkah-sep-2021.jpg') }}" alt="News 1" class="w-full h-80 object-cover rounded-md">
+                    <img src="{{ asset('images/news-gunung-luhur-berkah-sep-2021.jpg') }}" alt="Pelepasan Ekspor Komoditas Kopi Di Subang Oleh Menteri Koperasi Dan UKM RI" class="w-full h-80 object-cover rounded-md">
                     <div class="flex flex-col gap-4">
                         <p class="text-sm text-[#949494]">September 2021</p>
                         <h3 class="text-lg font-semibold text-gray-800">
@@ -170,7 +170,7 @@
                     </div>
                 </div>
                 <div class="flex flex-col w-full sm:w-1/3 gap-4">
-                    <img src="{{ asset('images/news-gunung-luhur-berkah-apr-2024.jpg') }}" alt="News 1" class="w-full h-80 object-cover rounded-md">
+                    <img src="{{ asset('images/news-gunung-luhur-berkah-apr-2024.jpg') }}" alt="Koperasi Gunung Luhur Berkah, Melejitkan Nama Kopi Subang" class="w-full h-80 object-cover rounded-md">
                     <div class="flex flex-col gap-4">
                         <p class="text-sm text-[#949494]">April 2024</p>
                         <h3 class="text-lg font-semibold text-gray-800">
@@ -185,7 +185,7 @@
             </div>
             <div class="flex flex-col sm:flex-row gap-8 mt-8">
                 <div class="flex flex-col w-full sm:w-1/3 gap-4">
-                    <img src="{{ asset('images/news-gunung-luhur-berkah-aug-2024.jpg') }}" alt="News 1" class="w-full h-80 object-cover rounded-md">
+                    <img src="{{ asset('images/news-gunung-luhur-berkah-aug-2024.jpg') }}" alt="Kemenkop UKM ajak investor dukung permodalan koperasi produsen" class="w-full h-80 object-cover rounded-md">
                     <div class="flex flex-col gap-4">
                         <p class="text-sm text-[#949494]">Agustus 2024</p>
                         <h3 class="text-lg font-semibold text-gray-800">
@@ -198,7 +198,7 @@
                     </div>
                 </div>
                 <div class="flex flex-col w-full sm:w-8/12 gap-4">
-                    <img src="{{ asset('images/news-gunung-luhur-berkah-pelepasan.jpg') }}" alt="News 1" class="w-full h-80 object-cover rounded-md">
+                    <img src="{{ asset('images/news-gunung-luhur-berkah-pelepasan.jpg') }}" alt="Kopi asal Subang Diekspor ke Timur Tengah, 20 Ton Perbulan" class="w-full h-80 object-cover rounded-md">
                     <div class="flex flex-col gap-4">
                         <p class="text-sm text-[#949494]">Agustus 2024</p>
                         <h3 class="text-lg font-semibold text-gray-800">
