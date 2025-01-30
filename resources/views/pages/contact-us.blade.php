@@ -2,10 +2,16 @@
 
 @section('title', __('messages.contact'))
 
+@push('head')
+    <!-- Meta Tags for SEO -->
+    <meta name="description" content="{{ __('messages.meta.description.contact') }}">
+    <meta name="keywords" content="{{ __('messages.meta.keywords.contact') }}">
+@endpush
+
 @push('content')
     <section class="py-16 mt-20 px-6 sm:px-16">
         <div class="flex flex-col md:flex-row justify-between items-start md:items-center mb-8">
-            <h1 class="text-3xl sm:text-6xl font-bold text-gray-title sm:w-1/2">CONTACT</h1>
+            <h1 class="text-3xl sm:text-6xl font-bold text-gray-title sm:w-1/2">{{ __('messages.contact') }}</h1>
             <div class="flex flex-col md:flex-row gap-8 mt-4 md:mt-0">
                 <div class="sm:w-1/2">
                     <h2 class="text-base font-bold sm:text-xl font-poppins text-[#333333]">{{ __('messages.contact-us.address') }}</h2>

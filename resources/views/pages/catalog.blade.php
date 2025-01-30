@@ -2,6 +2,12 @@
 
 @section('title', __('messages.catalog'))
 
+@push('head')
+    <!-- Meta Tags for SEO -->
+    <meta name="description" content="{{ __('messages.meta.description.catalog') }}">
+    <meta name="keywords" content="{{ __('messages.meta.keywords.catalog') }}">
+@endpush
+
 @push('content')
     <section class="py-20 mt-20 px-6 sm:px-16">
         <h2 class="text-xl sm:text-6xl font-bold text-center mb-20 text-gray-title uppercase">{{ __('messages.catalog.title') }}</h2>

@@ -14,9 +14,9 @@
 
         <!-- Konten utama -->
         <div class="mx-auto text-center items-center flex flex-col gap-9">
-            <div class="text-3xl sm:text-7xl w-3/4 sm:w-1/2 font-bold text-[#333333] z-10 animate__animated animate__fadeIn uppercase">
+            <h1 class="text-3xl sm:text-7xl w-3/4 sm:w-1/2 font-bold text-[#333333] z-10 animate__animated animate__fadeIn uppercase">
                 {{ __('messages.home.hero.title') }}
-            </div>
+            </h1>
             <a href="{{ route('catalog') }}" class="bg-green-primary hover:bg-green-secondary text-white px-6 py-3 rounded-full w-max text-base sm:text-lg z-10 uppercase">
                 {{ __('messages.home.hero.cta') }}
             </a>
@@ -115,7 +115,7 @@
                             <!-- Produk 1 -->
                             <div class="flex-shrink-0 w-[300px]">
                                 <div class="font-poppins">
-                                    <img src="{{ asset('images/home/robusta-coffee-bean.png') }}" alt=""
+                                    <img src="{{ asset('images/home/robusta-coffee-bean.png') }}" alt="Robusta Coffee Bean"
                                         class="rounded-md mb-4 w-full h-[300px] object-cover" />
                                     <h3 class="text-center text-lg font-medium text-gray-800">Robusta Coffee Bean</h3>
                                 </div>
@@ -123,7 +123,7 @@
                             <!-- Produk 2 -->
                             <div class="flex-shrink-0 w-[300px]">
                                 <div class="font-poppins">
-                                    <img src="{{ asset('images/home/arabic-coffee-bean.png') }}" alt=""
+                                    <img src="{{ asset('images/home/arabic-coffee-bean.png') }}" alt="Arabica Coffee Bean"
                                         class="rounded-md mb-4 w-full h-[300px] object-cover" />
                                     <h3 class="text-center text-lg font-medium text-gray-800">Arabica Coffee Bean</h3>
                                 </div>
@@ -241,6 +241,9 @@
 @endpush
 
 @push('head')
+    <!-- Meta Tags for SEO -->
+    <meta name="description" content="{{ __('messages.meta.description.home') }}">
+    <meta name="keywords" content="{{ __('messages.meta.keywords.home') }}">
     <!-- Swiper CSS -->
     <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
 @endpush

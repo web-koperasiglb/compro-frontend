@@ -15,7 +15,7 @@
             <loc>{{ $url }}</loc>
             <lastmod>{{ now()->tz('UTC')->toAtomString() }}</lastmod>
             <changefreq>daily</changefreq>
-            <priority>0.8</priority>
+            <priority>{{ $url == route('home') ? '1.0' : '0.8' }}</priority>
         </url>
     @endforeach
 </urlset>

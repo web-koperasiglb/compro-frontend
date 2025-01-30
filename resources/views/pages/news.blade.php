@@ -2,6 +2,12 @@
 
 @section('title', __('messages.news'))
 
+@push('head')
+    <!-- Meta Tags for SEO -->
+    <meta name="description" content="{{ __('messages.meta.description.news') }}">
+    <meta name="keywords" content="{{ __('messages.meta.keywords.news') }}">
+@endpush
+
 @push('content')
     <section class="py-16 mt-20 px-6 sm:px-16">
         <div class="mb-20 text-center flex flex-col gap-8">

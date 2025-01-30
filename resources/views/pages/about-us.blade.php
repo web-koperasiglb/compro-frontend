@@ -2,6 +2,12 @@
 
 @section('title', __('messages.about-us'))
 
+@push('head')
+    <!-- Meta Tags for SEO -->
+    <meta name="description" content="{{ __('messages.meta.description.about-us') }}">
+    <meta name="keywords" content="{{ __('messages.meta.keywords.about-us') }}">
+@endpush
+
 @push('content')
     <main class="relative mt-[4.5rem] sm:mt-16 h-96 sm:h-screen flex items-center overflow-hidden hero-about-us">
         <!-- Konten utama -->

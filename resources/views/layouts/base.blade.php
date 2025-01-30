@@ -11,8 +11,6 @@
         $defaultMetaDescription = 'Gunung Luhur Berkah, eksportir biji kopi berkualitas tinggi dari Indonesia. Menyediakan biji kopi pilihan untuk pasar global dengan cita rasa autentik dan keunggulan premium';
     @endphp
 
-    <meta name="keywords" content="@yield('keywords', 'gunung luhur berkah,eksportir kopi,biji kopi')">
-    <meta name="description" content="@yield('description', $defaultMetaDescription)">
     <meta property="og:image" itemprop="image" content="@yield('image', url(asset('images/logo-glb.svg')))">
     <meta property="og:locale" content="id_ID">
     <meta property="og:type" content="@yield('type', 'website')">
