@@ -5,9 +5,14 @@
             <!-- Logo & Address -->
             <img src="{{ asset('images/logo-glb.svg') }}" alt="Logo" class="w-24 h-24 mb-4">
             <div class="flex flex-col items-start text-base gap-6 sm:gap-0 w-full sm:w-1/3">
-                <div class="flex flex-col gap-2 text-sm sm:text-base">
+                <div class="flex flex-col gap-3 text-sm sm:text-base">
                     <p>Kp. Babakan RT 001 RW 004, Desa Cisalak, Kecamatan Cisalak, Subang, Indonesia 41283</p>
-                    <a href="tel:082243222423">+62 822-4322-2423</a>
+                    <div class="flex flex-col gap-2">
+                        <a href="http://wa.me/6281322820078">+6281322820078 (Miftahudin Shaf)</a>
+                        <a href="http://wa.me/6281324384055">+6281324384055 (M. Sani Sulthan)</a>
+                        <a href="http://wa.me/62895406437630">+62895406437630 (Alfi Shahrin Nur Ansyori)</a>
+                        <a href="http://wa.me/6287877529792">+6287877529792 (Aditya Dwi Permana)</a>
+                    </div>
                     <a href="mailto:gunungluhurkopi@gmail.com">gunungluhurkopi@gmail.com</a>
                 </div>
 

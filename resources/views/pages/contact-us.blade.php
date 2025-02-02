@@ -19,7 +19,24 @@
                 </div>
                 <div class="sm:w-1/2">
                     <h2 class="text-base font-bold sm:text-xl font-poppins text-[#333333]">{{ __('messages.contact-us.telp') }}</h2>
-                    <p class="text-[#464646] font-light text-sm mt-2">+62 822 4232 2423</p>
+                    <div class="flex flex-col gap-2 mt-2">
+                        <div>
+                            <h3 class="font-medium text-sm">Miftahudin Shaf - Ketua Koperasi</h3>
+                            <a href="http://wa.me/6281322820078" class="text-[#464646] font-light text-sm">+6281322820078</a>
+                        </div>
+                        <div>
+                            <h3 class="font-medium text-sm">M. Sani Sulthan - Sekertaris Koperasi</h3>
+                            <a href="http://wa.me/6281324384055" class="text-[#464646] font-light text-sm">+6281324384055</a>
+                        </div>
+                        <div>
+                            <h3 class="font-medium text-sm">Alfi Shahrin Nur Ansyori - Manager SRg</h3>
+                            <a href="http://wa.me/62895406437630" class="text-[#464646] font-light text-sm">+62895406437630</a>
+                        </div>
+                        <div>
+                            <h3 class="font-medium text-sm">Aditya Dwi Permana - Manager Ekspor</h3>
+                            <a href="http://wa.me/6287877529792" class="text-[#464646] font-light text-sm">+6287877529792</a>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
