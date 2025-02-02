@@ -70,4 +70,15 @@ return [
     'contact-us.field.telp' => 'رقم الهاتف',
     'contact-us.field.message' => 'الرسالة',
     'contact-us.form.success' => 'تم إرسال رسالتك بنجاح.',
+    'meta.description.home' => 'اكتشف المذاق الأصيل للقهوة الإندونيسية الفاخرة. استمتع بأفضل أنواع القهوة المختارة والمُعدّة للتصدير عالميًا من قبل Gunung Luhur Berkah.',
+    'meta.keywords.home' => 'قهوة إندونيسية, قهوة فاخرة, قهوة خاصة, تصدير القهوة, Gunung Luhur Berkah, Hofland, أفضل قهوة',
+    'meta.description.about-us' => 'Gunung Luhur Berkah هو منتج قهوة إندونيسي رائد يلتزم بالجودة والابتكار. تعرف على رحلتنا في تقديم أفضل أنواع القهوة إلى العالم.',
+    'meta.keywords.about-us' => 'معلومات عنا, منتج قهوة, قهوة إندونيسية, جودة القهوة, Hofland, Gunung Luhur Berkah, صناعة القهوة',
+    'meta.description.catalog' => 'تصفح كتالوج القهوة الفاخرة لدينا، والذي يضم أجود أنواع البن وأفضل المنتجات الجاهزة للتحضير. استمتع بالنكهات الأصيلة المصممة لعشاق القهوة حول العالم.',
+    'meta.keywords.catalog' => 'كتالوج القهوة, قهوة فاخرة, قهوة عالية الجودة, تصدير القهوة, أفضل حبوب القهوة, Hofland, Gunung Luhur Berkah',
+    'meta.description.news' => 'ابقَ على اطلاع بأحدث الابتكارات في صناعة القهوة، واتجاهات السوق، والتعاونات الإستراتيجية من Gunung Luhur Berkah.',
+    'meta.keywords.news' => 'أخبار القهوة, ابتكارات القهوة, اتجاهات القهوة, تعاون تجاري, تصدير القهوة, Gunung Luhur Berkah, Hofland',
+    'meta.description.contact' => 'تواصل معنا للحصول على معلومات حول المنتجات والطلبات والشراكات التجارية. فريقنا مستعد لدعم احتياجاتكم من القهوة الفاخرة.',
+    'meta.keywords.contact' => 'اتصل بنا, استفسارات تجارية, مورد القهوة, موزع القهوة, قهوة فاخرة, Hofland, Gunung Luhur Berkah',
+
 ];

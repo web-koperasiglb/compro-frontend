@@ -52,6 +52,23 @@
           }
         }
     </script>
+
+    <script type="application/ld+json">
+        {
+            "@context": "https://schema.org",
+            "@type": "Organization",
+            "name": "Gunung Luhur Berkah",
+            "url": "{{ url('/') }}",
+            "logo": "{{ asset('images/logo-glb.svg') }}",
+            "description": "Gunung Luhur Berkah adalah eksportir biji kopi berkualitas dari Indonesia.",
+            "contactPoint": {
+                "@type": "ContactPoint",
+                "telephone": "+62 813-2282-0078",
+                "contactType": "Lead"
+            }
+        }
+    </script>
+
     @stack('head')
 </head>
 <body>
